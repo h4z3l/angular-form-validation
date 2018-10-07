@@ -1,0 +1,25 @@
+<div fxLayout="column" fxLayoutAlign="start" fxLayoutGap="10px">
+  <div class="termsText" #terms (scroll)="scroll(terms)">
+    <p>
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore accusamus perferendis, eos eum qui architecto ducimus assumenda consequuntur voluptatum illo quos amet. Nostrum iusto quam, soluta enim corporis voluptatem, unde in excepturi dicta quaerat obcaecati sed ducimus iure non voluptatum delectus impedit quia fugiat magnam alias rerum debitis. Ipsa placeat officia autem voluptates dolore recusandae natus facere aperiam, nesciunt ratione delectus adipisci veniam amet soluta deserunt porro fugit blanditiis unde velit molestiae error! Aut non quaerat beatae porro blanditiis culpa possimus repellat voluptas consectetur corporis? Perspiciatis earum fuga autem doloremque, atque placeat deserunt, id quisquam illo quod dolorum at! Dignissimos?
+    </p>
+    <p>
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio vel et porro animi hic non odio tempore placeat numquam repudiandae quisquam unde, quo doloremque aliquam quis explicabo ex mollitia. Dolorum repellendus molestiae suscipit beatae aut pariatur libero possimus aliquam, adipisci expedita quis incidunt tenetur ducimus. Nam, explicabo accusantium voluptate illo veritatis iure. Eligendi error in voluptatum, dolore recusandae eveniet laboriosam tempore. Asperiores tempora aperiam, dicta veniam esse eveniet. Laboriosam voluptas autem vel, iusto consequatur illo saepe cumque vero reprehenderit exercitationem. Architecto suscipit excepturi at, ea incidunt provident et ratione maiores? Earum voluptatum nesciunt voluptates fuga expedita mollitia? Quaerat, eaque vel! Explicabo esse quidem accusamus dolor neque ab officia fuga! Vitae tempora delectus ratione culpa deleniti laborum nostrum modi magni voluptatibus.
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo praesentium harum numquam dolor voluptatum quisquam dignissimos pariatur nemo adipisci doloribus incidunt molestias placeat suscipit deleniti quo, voluptatibus illo? Obcaecati eos ab vitae ducimus aperiam debitis facere temporibus officiis saepe tenetur in et quod iste unde, tempora modi labore eum quis aspernatur, adipisci illum nihil ad! Dicta, repellat aperiam! Reprehenderit ut quo adipisci rerum, ad est aspernatur consequuntur laudantium a! Similique saepe provident magnam ipsum quas perspiciatis ut doloribus, omnis illo commodi quo nam explicabo magni, eaque incidunt sint. Iste sapiente quis perspiciatis repellendus! Vel doloremque voluptatibus iure facilis quibusdam quod!
+    </p>
+    <p>
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam ratione explicabo ut eum est quasi. Nemo, quam. Id eaque voluptate nemo dolorum minus animi soluta odio doloribus ut libero? Molestiae fugit quidem numquam quaerat quia dolores neque sapiente placeat pariatur delectus, doloremque nobis, nulla, culpa eaque veniam. Corporis molestias quo assumenda soluta at quaerat quasi consequuntur debitis natus eaque alias asperiores, voluptatem tempore sint? Quaerat natus cupiditate cumque itaque, similique sed vero facere iusto odio distinctio. Rerum officia praesentium saepe sint labore dolores dignissimos, numquam nobis quisquam, rem ad error explicabo pariatur ab consectetur cumque? Vel, et fuga, cumque dignissimos libero vero nihil rem optio cupiditate quia dolores nulla nam, molestiae quas nostrum quidem. Excepturi necessitatibus totam, quae doloribus, consequatur incidunt sequi non at repellat vitae odit perspiciatis praesentium fugiat inventore porro eligendi dolorum! Tempore tempora quia molestiae dicta, sunt incidunt, temporibus, accusantium tenetur inventore ad eveniet voluptatibus fuga consequatur? Voluptatum vero rem tempore omnis dignissimos magnam. Amet deleniti voluptas in reprehenderit ipsum et assumenda obcaecati. Assumenda officia aut facilis rem repellat dolor minus consequuntur adipisci, deserunt voluptatem quo architecto nemo iusto nulla voluptas et excepturi sit inventore asperiores? Eum veniam numquam esse laborum earum qui. Possimus rem sed, unde ipsa necessitatibus pariatur iusto aliquam ex dolores veniam odio labore sunt fuga provident tempore suscipit alias, a molestias et odit culpa qui sint recusandae corporis. Enim exercitationem consequuntur quod minima?
+    </p>
+  </div>
+  <div>
+    <div *ngIf="scrollBottom">
+      <form [formGroup]="parentForm">
+        <mat-checkbox mat-raised-button color="primary"
+          [formControlName]="'accept'"
+        >I agree to terms.</mat-checkbox>
+      </form>
+    </div>
+  </div>
+</div>
